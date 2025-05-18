@@ -1,0 +1,115 @@
+
+
+/* Let's make it Responsive */
+
+@media screen and (max-width:400px) {    
+    body{
+        overflow-x: hidden;
+    }
+
+
+    #logoHead{
+        font-size: 20px;
+
+    }
+
+    #navbar{
+        display: none;
+        
+    }
+
+    .menubar img{
+        width: 20px;
+        display: block;
+
+}
+
+    #hero-1{
+        margin: 0px;
+        padding: 95px 0px;
+        height: 70vh;
+    }
+
+    #hero-1 .heading-1{
+        font-size: 2.3rem;
+        font-weight: 700;
+        padding:18px ;
+        text-align: center;
+        width: 300px;
+    }
+    #hero-1 .heading-2{
+        font-size: 1.2rem;
+        width: 75%;
+        margin: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .btns{
+        padding: 5px;
+        gap: 20px;
+        font-size: 12px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Hero-2{        
+        height: 150vh;
+    }
+
+    #Hero-2 h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: #000000;
+        font-weight: 700;
+    }
+
+    .featureCards{
+        gap: 5%;
+
+    }
+
+    #Hero-2 .featureCards .card{
+          width: 350px;
+    }
+
+    #Hero-3{
+          /* height: 90vh; */
+          margin-top: 90%;
+    }
+
+
+    #Hero-4{
+        background:linear-gradient(109.3deg, rgb(147, 39, 143) 5.9%, rgb(163, 115, 161) 89%);
+        text-align: center;
+    }
+
+    #Hero-6{
+      height: 80vh;
+    }
+
+    #Newsletter{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 20px;
+    }
+
+    .info1{
+        justify-content: start;
+        padding:0px ;
+        width: 350px;
+    }
+
+    .lastsection{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;            
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
+

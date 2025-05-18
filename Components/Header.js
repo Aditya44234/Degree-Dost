@@ -1,18 +1,48 @@
+"use client"
 import React from 'react'
+import Link from 'next/link'
 
-const Header = (props) => {
+import { useState } from 'react'
+
+
+
+
+
+
+const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  
   return (
-    <div className=' font-mono p-5 mt-0 flex justify-around gap-9 font-bold bg-amber-300 shadow-blue-600 '>
-        <h1 className='text-3xl'><a href="">{props.user}</a></h1>
+    <>
 
-        <div className="navbar flex items-center justify-around gap-3.5 text-1.5xl">
-        <a href="">About</a>
-        <a href="">Help</a>
-        <a href="">More</a>
-        <a href="">Contact</a>
-        </div>
+     <div className={`header transition-all duration-400 ${isOpen ? "h-100" : "h-14"}`}>
+        <Link className="text-2xl font-bold hover:cursor-pointer text-purple-600" href="/" id="logoHead">
+          Degree Dost
+        </Link>
+
+
+
+
+    <div id='navbar' className={`flex  ${isOpen ? "flex-col " : "flex-row"}`}>
+     <Link className='links' href= "/">Home</Link>
+     <Link className='links' href="/Notes" >Notes</Link>
+     <Link className='links' href="/QuestionP" >Question Papers</Link>
+     <Link className='links' href="/Results" >Results</Link>
+     <Link className='links' href="/NoticeBoard" >Notice Board</Link>
+     <Link className='links' href="/SubmitCon" >Submit Content</Link>
+     <Link className='links' href="/Admin" >Admin</Link>
+    </div>
+
+      <div className="menubar ">
+        <button onClick={() => setIsOpen(!isOpen)}>
+          <img src="./images/menubtn.png" alt="menu" />
+        </button>
+      </div>
 
     </div>
+    </>
+
+    
   )
 }
 

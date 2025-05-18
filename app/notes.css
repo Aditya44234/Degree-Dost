@@ -1,0 +1,218 @@
+/* General Styling */
+
+
+#CourseNotes{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    padding-top:90px;
+    /* margin: 10px; */
+    gap: 30px;
+    height: 80vh;
+    width: 100%;    
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+/* Title */
+.title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #775AAA;
+
+
+}
+
+/* Degree Selection */
+#SelectionBar {
+  display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #f1f5f9 ;
+    border-radius: 5px;
+    padding:0px 10px;
+    background-color: #f1f5f9;
+    margin: 0px auto;
+    gap: 2px;
+
+
+}
+
+.degree {
+      cursor: pointer;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    transition: all 0.3s ease-in;
+}
+
+.degree:hover {
+      background-color: #fff;
+}
+
+.degree.selected {
+ background-color: #fff;
+}
+
+/* Semester Selection */
+#semSelect {
+ display: flex;
+    width: 55%;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f1f5f9 ;
+    border-radius: 5px;
+    background-color: #f1f5f9;
+    gap: 2px;
+    padding: 8px 0px;
+}
+
+.sem {
+    font-family: "Poppins",'serif';
+  padding: 8px 15px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+  transition: 0.3s;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 200px;
+  
+}
+
+.sem:hover {
+  background:  #f1f5f9;
+}
+
+.sem.selected {
+  background:  #a288cf;
+  color: white;
+}
+
+
+/* PDF Selection Box */
+.pdfSelectionBox {
+  width: 380px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  position: absolute;
+  left: 20px; /* Left alignment */
+  top: 350px; /* Positioning below semester bar */
+  text-align: left;
+  height: 30%;
+  margin: 15px;
+  /* position: relative; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Poppins",'serif';
+
+}
+
+.pdfSelectionBox h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+#downloadBtn{
+    font-family: "Poppins",'serif';
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding:3px 5px;
+  border-radius: 5px;
+}
+#downloadBtn:hover{
+  background-color: #e3dde4;
+
+}
+
+
+#downloadBtn img{
+  width: 15px;
+  
+  height: 15px;
+  
+}
+
+
+
+
+.pdfSelectionBox ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.pdfSelectionBox li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.pdfSelectionBox li a:hover {
+  /* text-decoration: underline; */
+  color: #0056b3;
+}
+
+
+/* Let's make it responsive */
+
+@media screen and (max-width:400px){
+
+  #semSelect{
+    width: 100%;
+    justify-content: space-between;
+
+
+
+  }
+
+  .sem {
+    font-family: "Poppins",'serif';
+  padding: 5px 9px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+  width: 250px;
+  
+}
+
+
+  .pdfSelectionBox{
+    padding: 10px;
+    margin: 10px;
+
+
+    width: 320px;
+
+
+  }
+
+
+
+  
+}
