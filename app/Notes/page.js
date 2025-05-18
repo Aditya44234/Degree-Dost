@@ -8,24 +8,32 @@ const pdfData = {
     sem2: "/pdfs/pdf2.pdf",
     sem3: "/pdfs/pdf1.pdf",
     sem4: "/pdfs/pdf2.pdf",
+    sem5: "/pdfs/pdf2.pdf",
+    sem6: "/pdfs/pdf2.pdf",
   },
   BCom: {
      sem1: "/pdfs/pdf1.pdf",
     sem2: "/pdfs/pdf2.pdf",
     sem3: "/pdfs/pdf1.pdf",
     sem4: "/pdfs/pdf2.pdf",
+    sem5: "/pdfs/pdf2.pdf",
+    sem6: "/pdfs/pdf2.pdf",
   },
   BBA: {
     sem1: "/pdfs/pdf1.pdf",
     sem2: "/pdfs/pdf2.pdf",
     sem3: "/pdfs/pdf1.pdf",
     sem4: "/pdfs/pdf2.pdf",
+    sem5: "/pdfs/pdf2.pdf",
+    sem6: "/pdfs/pdf2.pdf",
   },
   BCA: {
       sem1: "/pdfs/pdf1.pdf",
       sem2: "/pdfs/pdf2.pdf",
       sem3: "/pdfs/pdf1.pdf",
       sem4: "/pdfs/pdf2.pdf",
+      sem5: "/pdfs/pdf2.pdf",
+      sem6: "/pdfs/pdf2.pdf",
   }
 };
 
