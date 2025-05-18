@@ -2,7 +2,7 @@
 
 /* Let's make it Responsive */
 
-@media screen and (max-width:400px) {    
+@media screen and (max-width:430px) {    
     body{
         overflow-x: hidden;
     }
@@ -71,7 +71,7 @@
     }
 
     #Hero-2 .featureCards .card{
-          width: 350px;
+          width: 320px;
     }
 
     #Hero-3{

@@ -17,6 +17,7 @@ const Header = () => {
 
      <div className={`header transition-all duration-400 ${isOpen ? "h-100" : "h-14"}`}>
         <Link className="text-2xl font-bold hover:cursor-pointer text-purple-600" href="/" id="logoHead">
+            <img src="/logo.png" alt="logo" className='w-15 h-10 inline-block' />        
           Degree Dost
         </Link>
 
@@ -38,7 +39,7 @@ const Header = () => {
           <img src="./images/menubtn.png" alt="menu" />
         </button>
       </div>
-      
+
 
     </div>
     </>
