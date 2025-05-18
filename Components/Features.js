@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import { useState } from 'react'
 
 const page = () => {
   return (
@@ -11,13 +13,17 @@ const page = () => {
       {/* Feature card */}
       <div className="featureCards">
         {/* Card-1 */}
+        <Link href="/Notes" >
         <div className="card">
           <div className="logo" ><img src="./images/notes.png" alt="" /></div>
           <div className="feature">Notes</div>
           <div className="featureInfo">Access course notes for all semesters and departments</div>
         </div>
+        </Link>
+
 
         {/* Card-2 */}
+
         <div className="card">
           <div className="logo"><img src="./images/papers.png" alt="" /></div>
           <div className="feature">Questions</div>
