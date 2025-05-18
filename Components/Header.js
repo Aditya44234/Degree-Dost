@@ -34,7 +34,7 @@ const Header = () => {
      <Link className='links' href="/Admin" >Admin</Link>
     </div>
 
-      <div className="menubar ">
+      <div className="menubar py-2">
         <button onClick={() => setIsOpen(!isOpen)}>
           <img src="./images/menubtn.png" alt="menu" />
         </button>

@@ -64,9 +64,9 @@ const Page = () => {
         {selectedDegree && (
           <div id="semSelect">
             {Object.keys(pdfData[selectedDegree]).map((sem) => (
-              <div
+              <div 
                 key={sem}
-                className={`sem ${selectedSemester === sem ? "selected" : ""}`}
+                className={`sem ${selectedSemester === sem ? "selected" : ""}` }
                 onClick={() => setSelectedSemester(sem)}
               >
                 {sem.replace("sem", "Semester ")}
