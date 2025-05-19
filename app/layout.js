@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./notes.css"; 
 import "./mobile.css"; 
+import "./results.css"; 
 
 import Header from '@/Components/Header'
 import NewsLetter from "@/Components/NewsLetter";

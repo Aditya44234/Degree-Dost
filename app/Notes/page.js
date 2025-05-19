@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-// import "./styles.css"; // Import the CSS file
 
 const pdfData = {
   BSc: {
