@@ -103,6 +103,30 @@ const page = () => {
       
      </div>
 
+     <div className="verificationSec">
+      <h1 className='text-2xl font-bold ml-4.5'>Result Verification</h1>
+      
+      <div className="verificationBox ">
+
+        <h1 className='text-gray-500'>For result verification and correction of any discrepancies, please contact the Examination Department with your hall ticket number and identification proof.</h1>
+
+        <div className="contactinfoBox">
+          <div className="conHead"><h1 className='text-2xl '>Contact Information:</h1></div>
+          
+            <p>Examination Department, Osmania University</p>
+            <p>Email: exam@ou.ac.in</p>
+            <p>Phone: 040-XXXXXXXX</p>
+        </div>
+
+
+      </div>
+
+
+
+
+
+     </div>
+
 
     </div>
     

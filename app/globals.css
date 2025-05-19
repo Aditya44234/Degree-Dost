@@ -68,7 +68,7 @@ body {
 
 #navbar .links{
   color: black;
-  padding: 4px;
+  padding: 4px 7px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
@@ -85,7 +85,6 @@ body {
   display: none;
   z-index: 100px;
   /* position: absolute; */
-
 }
 
 #hero-1{

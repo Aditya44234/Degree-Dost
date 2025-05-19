@@ -24,11 +24,14 @@ const page = () => {
 
         {/* Card-2 */}
 
+        <Link href="/QuestionP">
+        
         <div className="card">
           <div className="logo"><img src="./images/papers.png" alt="" /></div>
           <div className="feature">Questions</div>
           <div className="featureInfo">Find previous year question papers for your exams</div>
         </div>
+        </Link>
 
 
         {/* Card-2 */}
@@ -60,11 +63,14 @@ const page = () => {
 
 
         {/* Card-6 */}
+
+        <Link href="https://forms.gle/RaSZu4xDWkYdX8CX8">        
         <div className="card">
           <div className="logo"><img src="./images/upload.png" alt="" /></div>
           <div className="feature">Submit Content</div>
           <div className="featureInfo">Share your notes and question papers with others</div>
         </div>
+        </Link>
 
 
       </div>

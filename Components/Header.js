@@ -29,17 +29,18 @@ const Header = () => {
      <Link className='links' href="/Notes" >Notes</Link>
      <Link className='links' href="/QuestionP" >Question Papers</Link>
      <Link className='links' href="/Results" >Results</Link>
+     <Link className='links' href="/Notifications" >Notifications</Link>
      <Link className='links' href="/NoticeBoard" >Notice Board</Link>
-     <Link className='links' href="/SubmitCon" >Submit Content</Link>
-     <Link className='links' href="/Admin" >Admin</Link>
+     <Link className='links' href="https://forms.gle/RaSZu4xDWkYdX8CX8" >Submit Content</Link>
     </div>
 
-      <div className="menubar py-3">
+      
+
+    <div className="menubar py-3 ">
         <button onClick={() => setIsOpen(!isOpen)}>
           <img src="./images/menubtn.png" alt="menu" />
         </button>
       </div>
-
 
     </div>
     </>

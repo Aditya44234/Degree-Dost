@@ -80,10 +80,48 @@
 .resultBox:hover{
     scale: 1.02;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
 
+
+
+
+
+
+.verificationSec{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
 
 }
 
+.verificationBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding:10px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 95%;
+
+}
+
+.contactinfoBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    border-radius: 7px;
+
+}
+
+.contactinfoBox p{
+    color: grey;
+    font-size: 15px;
+}
 
 
 
