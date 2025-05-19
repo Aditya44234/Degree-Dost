@@ -32,11 +32,15 @@ const page = () => {
 
 
         {/* Card-2 */}
+
+        <Link href="/Results" >
+        
         <div className="card">
           <div className="logo"><img src="./images/result.png" alt="" /></div>
           <div className="feature">Results</div>
           <div className="featureInfo">Check the latest results from Osmania University</div>
         </div>
+        </Link>
 
 
         {/* Card-4 */}
