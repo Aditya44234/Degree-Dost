@@ -73,7 +73,7 @@
  display: flex;
     width: 55%;
     height: 39px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: 2px solid #f1f5f9 ;
     border-radius: 5px;
@@ -102,10 +102,51 @@
   background:  #f1f5f9;
 }
 
+
 .sem.selected {
   background:  #a288cf;
   color: white;
 }
+
+#subjectSelect{
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* PDF Selection Box */
