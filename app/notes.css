@@ -81,6 +81,10 @@
     gap: 2px;
     padding: 8px 0px;
     font-family: "Poppins",'serif';
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
 }
 
 .sem {
@@ -95,6 +99,12 @@
   font-size: 13px;
   font-weight: 500;
   width: 200px;
+  flex-wrap: wrap;
+
+    z-index: 10;
+    margin-top: auto 70%;
+    display: inline-block;
+    border-radius: 4px;
   
 }
 
@@ -226,7 +236,7 @@
 @media screen and (max-width:430px){
 
   #semSelect{
-    width: 100%;
+    width: 70%;
     justify-content: space-between;
     /* flex-direction: column; */
     
